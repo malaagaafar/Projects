@@ -1,3 +1,5 @@
+docker pull qdrant/qdrant
+docker run -d -p 6333:6333 qdrant/qdrant
 llama-index-multi-modal-llms-gemini
 llama-index-vector-stores-qdrant
 llama-index-embeddings-gemini
